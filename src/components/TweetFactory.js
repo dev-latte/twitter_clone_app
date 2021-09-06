@@ -96,7 +96,6 @@ const TweetFactory = ({ userObj }) => {
             </div>
         )}
     </form>
-    )
-};
+    )}
 
 export default TweetFactory;

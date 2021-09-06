@@ -33,6 +33,6 @@ const Navigation = ({ userObj }) => (
             </li>
         </ul>
     </nav>
-);
+)
 
 export default Navigation;

@@ -3,7 +3,7 @@ import AppRouter from "components/Router";
 import { authService } from "fbInstance";
 
 
-function App() {
+const App = () => {
   const [init, setInit] = useState(false);
   const [userObj, setUserObj] = useState(null);
 
@@ -33,7 +33,7 @@ function App() {
 
   
   return (
-    <>
+  <>
     { init ? (
       <AppRouter
         refreshUser={refreshUser} 
@@ -43,8 +43,7 @@ function App() {
       ) : (
         "initializing..."
       )}
-    </>
-  );
-}
+  </>
+)}
 
 export default App;

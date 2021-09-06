@@ -1,6 +1,5 @@
 import { faPencilAlt, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { dbService, storageService } from "fbInstance";
 import React, { useState } from "react";
 
@@ -23,7 +22,7 @@ const Tweet = ({ tweetObj, isOwner }) => {
             text: newTweet,
         });
         setEditTweet(false);
-    }
+    };
 
     const onChange = (e) => {
         const {target: {value}} = e;
@@ -71,6 +70,5 @@ const Tweet = ({ tweetObj, isOwner }) => {
                 </>
             )}
         </div>
-    )
-};
+    )}
 export default Tweet;

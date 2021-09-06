@@ -62,7 +62,6 @@ const AuthForm = () => {
             </span>
         </form>
         </>
-    )
-} 
+    )} 
 
 export default AuthForm;

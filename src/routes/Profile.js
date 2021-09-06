@@ -61,7 +61,5 @@ const Profile = ({ refreshUser, userObj }) => {
                 Log Out
             </span>
         </div>
-    )
-
-};
+    )}
 export default Profile;

@@ -35,11 +35,10 @@ const AppRouter = ({ refreshUser, isLoggedIn, userObj }) => {
                             <Auth/>
                         </Route>
                     </> 
-                )};
+                )}
                 </>
             </Switch>
         </Router>
-    );
-};
+)}
 
 export default AppRouter;
